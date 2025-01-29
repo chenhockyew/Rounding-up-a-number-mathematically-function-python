@@ -28,6 +28,18 @@ Number(rounded up) = y + (6//1)
                 = 0 + 6
                 = 6 (success, 6 does not round up as it is already a whole number)
 
+With Negative number:
+Number = -8.9
+x = 0.1 #decimal value(Number Modulo 1)
+Plug into function y = x^(0^x):
+y = 0.1^(0^0.1)
+  = 0.1^(0)
+  = 1
+Add y to Number's floor division:
+Number(rounded up) = 1 + (-8.9//1)  
+                = 1 + -9.0 #floor division rounds towards negative infinity
+                = 8 (successfully rounded up!)
+
 Function's Graph:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/29cc3af2-f9d8-49aa-8b6d-dbd088882ad7" />
 
