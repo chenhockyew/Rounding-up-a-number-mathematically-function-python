@@ -1,0 +1,8 @@
+#roundup function
+#Alternative to math.ceil?
+def roundup(num): 
+  integer = num//1 #Get number without the decimal places
+  deci = num%1 #Get the decimal places
+  rounding = deci**(0**deci) #x^(0^x), where x is the decimal value(0 to the power of 0 is 1(in python)/Debatable)
+  result = integer + rounding #add the rounding(number to add to the integer of the number)
+  return result 
