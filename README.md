@@ -27,7 +27,7 @@ y = 0^(0^0)
 Add y to Number's floor division:
 Number(rounded up) = y + (6//1) 
                 = 0 + 6
-                = 6 (success, 6 doesnot round up)
+                = 6 (success, 6 does not round up as it is already a whole number)
 
 Function's Graph:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/29cc3af2-f9d8-49aa-8b6d-dbd088882ad7" />
