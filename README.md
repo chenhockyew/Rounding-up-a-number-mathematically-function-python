@@ -18,8 +18,7 @@ Number(rounded up) = y + (7.09//1)
 
 Now with an integer:
 Number = 6
-x = 6 Mod 1
-  = 0 
+x = 0 #decimal value(Number Modulo 1)
 Plug into function y = x^(0^x):
 y = 0^(0^0)
   = 0^(1)
