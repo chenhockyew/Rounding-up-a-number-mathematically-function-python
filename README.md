@@ -1,5 +1,5 @@
 # Rounding-up-mathematically-function-python
-Could not find solution to round a number up with math without if statements, conditionals, relational operations and built-in functions so I tried to make one(in python)
+Could not find solution to round a number up with math without if statements, conditionals, relational operators and built-in functions so I tried to make one(in python)
 
 How it works:
 Uses x^(0^x) to act as a conditional, if x(For all values 0 and greater) representing the decimal place, is 0 or equivalent, the function will return 0 else it will return 1. The returned value is then added to the number's floor division by 1.
