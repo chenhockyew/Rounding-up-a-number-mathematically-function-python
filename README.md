@@ -38,7 +38,7 @@ y = 0.1^(0^0.1)
 Add y to Number's floor division:
 Number(rounded up) = 1 + (-8.9//1)  
                    = 1 + -9.0 #floor division rounds towards negative infinity
-                   = 8 (successfully rounded up!)
+                   = -8 (successfully rounded up!)
 
 Function's Graph:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/29cc3af2-f9d8-49aa-8b6d-dbd088882ad7" />
