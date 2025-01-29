@@ -13,8 +13,8 @@ y = 0.09^(0^0.09)
   = 1
 Add y to Number's floor division:
 Number(rounded up) = y + (7.09//1) 
-                = 1 + 7
-                = 8 (successfully rounded up!)
+                   = 1 + 7
+                   = 8 (successfully rounded up!)
 
 Now with an integer:
 Number = 6
@@ -25,8 +25,8 @@ y = 0^(0^0)
   = 0
 Add y to Number's floor division:
 Number(rounded up) = y + (6//1) 
-                = 0 + 6
-                = 6 (success, 6 does not round up as it is already a whole number)
+                   = 0 + 6
+                   = 6 (success, 6 does not round up as it is already a whole number)
 
 With Negative number:
 Number = -8.9
@@ -37,8 +37,8 @@ y = 0.1^(0^0.1)
   = 1
 Add y to Number's floor division:
 Number(rounded up) = 1 + (-8.9//1)  
-                = 1 + -9.0 #floor division rounds towards negative infinity
-                = 8 (successfully rounded up!)
+                   = 1 + -9.0 #floor division rounds towards negative infinity
+                   = 8 (successfully rounded up!)
 
 Function's Graph:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/29cc3af2-f9d8-49aa-8b6d-dbd088882ad7" />
